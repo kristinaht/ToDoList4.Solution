@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using ToDoList.Models;
-
+//___________________________________________________
+//Body in response: The last line of code in a controller route indicates the resource that should be returned in the body of the response. In this case it is a View().
+//___________________________________________________
 namespace ToDoList.Controllers
 {
   public class HomeController : Controller
