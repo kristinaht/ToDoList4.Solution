@@ -10,8 +10,10 @@ namespace ToDoList.Controllers
     [HttpGet("/")]
     public ActionResult Index()
     {
-      Item starterItem = new Item("add first item to To Do List");
-      return View(starterItem);
+     List<Item> allItems = Item.GetAll();
+      return View(allItems);
+      // Item starterItem = new Item("add first item to To Do List");
+      // return View(starterItem);
     }
 
     [HttpGet("/items/new")]
