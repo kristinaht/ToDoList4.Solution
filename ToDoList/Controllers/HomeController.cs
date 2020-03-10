@@ -28,7 +28,10 @@ namespace ToDoList.Controllers
     public ActionResult Create(string description)
     {
       Item myItem = new Item(description);
-      return View("Index", myItem);
+      return RedirectToAction("Index");
+      //RedirectToAction takes a route method as an argument. It redirects to the route that is passed as an argument.
+
+      // return View("Index", myItem);
       //"Index" specifies the view that should be returned because we are no longer routing to a view with the same exact name as our route method.
     }
   }
