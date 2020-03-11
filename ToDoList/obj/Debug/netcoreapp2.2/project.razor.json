@@ -2966,8 +2966,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kristina\\desktop\\To-Do-List-2.Solution\\ToDoList\\Views\\Items\\CreateForm.cshtml",
-      "TargetPath": "Views\\Items\\CreateForm.cshtml",
+      "FilePath": "c:\\Users\\Kristina\\desktop\\To-Do-List-2.Solution\\ToDoList\\Views\\Items\\New.cshtml",
+      "TargetPath": "Views\\Items\\New.cshtml",
       "FileKind": "mvc"
     },
     {
