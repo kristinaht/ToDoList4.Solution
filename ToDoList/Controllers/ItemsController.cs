@@ -34,5 +34,12 @@ namespace ToDoList.Controllers
       // return View("Index", myItem);
       //"Index" specifies the view that should be returned because we are no longer routing to a view with the same exact name as our route method.
     }
+
+    [HttpPost("/items/delete")]
+    public ActionResult DeleteAll()
+    {
+      Item.ClearAll();
+      return View();
+    }
   }
 }
