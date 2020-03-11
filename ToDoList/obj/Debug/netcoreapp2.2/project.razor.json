@@ -2974,6 +2974,11 @@
       "FilePath": "c:\\Users\\Kristina\\desktop\\To-Do-List-2.Solution\\ToDoList\\Views\\Items\\Index.cshtml",
       "TargetPath": "Views\\Items\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Kristina\\desktop\\To-Do-List-2.Solution\\ToDoList\\Views\\Items\\DeleteAll.cshtml",
+      "TargetPath": "Views\\Items\\DeleteAll.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
