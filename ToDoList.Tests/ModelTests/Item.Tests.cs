@@ -102,8 +102,22 @@ namespace ToDoList.Tests
 
      //Assert
      Assert.AreEqual(1, result);
+   }
 
+   [TestMethod]
+   public void Find_ReturnsCorrectItem_Item()
+   {
+     //Arrange
+     string description1 = "Walk the dog.";
+     string description2 = "Wash the dishes";
+     Item newItem1 = new Item(description1);
+     Item newItem2 = new Item(description2);
 
+     //Act
+     Item result = new Item("Incorrect test item");
+
+     //Assert
+     Assert.AreEqual(result, newItem2);
    }
   }
 }
