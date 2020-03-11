@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Kristina\\desktop\\ToDoList.Solution\\ToDoList\\ToDoList.csproj",
+  "FilePath": "c:\\Users\\Kristina\\desktop\\To-Do-List-2.Solution\\ToDoList\\ToDoList.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,18 +2961,18 @@
   "RootNamespace": "ToDoList",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Kristina\\desktop\\ToDoList.Solution\\ToDoList\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\Kristina\\desktop\\To-Do-List-2.Solution\\ToDoList\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kristina\\desktop\\ToDoList.Solution\\ToDoList\\Views\\Items\\Index.cshtml",
-      "TargetPath": "Views\\Items\\Index.cshtml",
+      "FilePath": "c:\\Users\\Kristina\\desktop\\To-Do-List-2.Solution\\ToDoList\\Views\\Items\\CreateForm.cshtml",
+      "TargetPath": "Views\\Items\\CreateForm.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Kristina\\desktop\\ToDoList.Solution\\ToDoList\\Views\\Items\\CreateForm.cshtml",
-      "TargetPath": "Views\\Items\\CreateForm.cshtml",
+      "FilePath": "c:\\Users\\Kristina\\desktop\\To-Do-List-2.Solution\\ToDoList\\Views\\Items\\Index.cshtml",
+      "TargetPath": "Views\\Items\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
