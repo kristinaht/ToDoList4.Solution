@@ -79,3 +79,4 @@ C:/Users/Kristina/desktop/To-Do-List-2.Solution/ToDoList/obj/Debug/netcoreapp2.2
 /Users/Guest/Desktop/To-Do-List-2/ToDoList/obj/Debug/netcoreapp2.2/ToDoList.Views.pdb
 /Users/Guest/Desktop/To-Do-List-2/ToDoList/obj/Debug/netcoreapp2.2/ToDoList.csproj.CopyComplete
 /Users/Guest/Desktop/To-Do-List-2/ToDoList/obj/Debug/netcoreapp2.2/Razor/Views/Items/Show.g.cshtml.cs
+/Users/Guest/Desktop/To-Do-List-2/ToDoList/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
