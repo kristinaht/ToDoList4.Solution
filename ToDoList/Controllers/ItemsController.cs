@@ -8,32 +8,21 @@ namespace ToDoList.Controllers
 {
   public class ItemsController : Controller
   {
-    [HttpGet("/items")]
-    public ActionResult Index()
-    {
-     List<Item> allItems = Item.GetAll();
-      return View(allItems);
-      // Item starterItem = new Item("add first item to To Do List");
-      // return View(starterItem);
-    }
+    // [HttpGet("/items")]
+    // public ActionResult Index()
+    // {
+    //  List<Item> allItems = Item.GetAll();
+    //   return View(allItems);
+    //   // Item starterItem = new Item("add first item to To Do List");
+    //   // return View(starterItem);
+    // }
 
-    [HttpGet("/items/new")]
-    public ActionResult New()
-    {
-      return View();
-    }
-
-//[Route("/items)] Create() is only for creating new items. No need to create Create.cshtml 
-  [HttpPost("/items")]
-    public ActionResult Create(string description)
-    {
-      Item myItem = new Item(description);
-      return RedirectToAction("Index");
-      //RedirectToAction takes a route method as an argument. It redirects to the route that is passed as an argument.
-
-      // return View("Index", myItem);
-      //"Index" specifies the view that should be returned because we are no longer routing to a view with the same exact name as our route method.
-    }
+      [HttpGet("/categories/{categoryId}/items/new")]
+      public ActionResult New(int categoryId)
+      {
+        Category category = Category.Find(categoryId);
+        return View(category);
+      }
 
     [HttpPost("/items/delete")]
     public ActionResult DeleteAll()
@@ -42,11 +31,15 @@ namespace ToDoList.Controllers
       return View();
     }
 
-    [HttpGet("/items/{id}")]
-    public ActionResult Show(int id)
+    [HttpGet("/categories/{categoryId}/items/{itemId}")]
+    public ActionResult Show(int categoryId, int itemId)
     {
-      Item foundItem = Item.Find(id);
-      return View(foundItem);
+      Item item = Item.Find(itemId);
+      Category category = Category.Find(categoryId);
+      Dictionary<string, object> model = new Dictionary<string, object>();
+      model.Add("item", item);
+      model.Add("category", category);
+      return View(model);
     }
   }
 }
